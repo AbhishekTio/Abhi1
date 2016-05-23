@@ -68,7 +68,7 @@
     <splash platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
     <splash src="res/screen/ios/splash-750x1334.png"  platform="ios" width="750" height="1334"  /><!-- iPhone6 Portrait -->
     <splash src="res/screen/ios/splash-1242x2208.png"  platform="ios" width="1242" height="2208"  /><!-- iPhone6+ Portrait -->
-	<splash height="1920" platform="windows" src="res/screen/windows/screen-portrait.jpg" width="1152"/>
+	<splash platform="windows" src="res/screen/windows/screen-portrait.jpg" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -104,7 +104,7 @@
 	<icon height="310" platform="windows" src="res/icon/windows/Square310x310Logo.scale-100.png" width="310"/>
 	<icon height="150" platform="windows" src="res/icon/windows/Wide310x150Logo.scale-100.png" width="310"/>
 	<icon height="360" platform="windows" src="res/icon/windows/Wide310x150Logo.scale-240.png" width="744"/>
-	<splash height="1920" platform="windows" src="res/screen/windows/screen-portrait.jpg" width="1152"/>
+	<splash  platform="windows" src="res/screen/windows/screen-portrait.jpg" />
 </platform>
 	<allow-intent href="*" />
 	<allow-navigation href="*" />
