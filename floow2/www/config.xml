@@ -25,7 +25,6 @@
 	
     <preference name="permissions" value="none" />
 	<preference name="fullscreen" value="true" />
-	<preference name="SplashScreen" value="splash"/>
     <preference name="SplashScreenDelay" value="4000" />
 	<preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
@@ -69,6 +68,7 @@
     <splash platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
     <splash src="res/screen/ios/splash-750x1334.png"  platform="ios" width="750" height="1334"  /><!-- iPhone6 Portrait -->
     <splash src="res/screen/ios/splash-1242x2208.png"  platform="ios" width="1242" height="2208"  /><!-- iPhone6+ Portrait -->
+	<gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
