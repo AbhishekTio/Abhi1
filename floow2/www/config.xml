@@ -69,12 +69,7 @@
     <splash src="res/screen/ios/splash-750x1334.png"  platform="ios" width="750" height="1334"  /><!-- iPhone6 Portrait -->
     <splash src="res/screen/ios/splash-1242x2208.png"  platform="ios" width="1242" height="2208"  /><!-- iPhone6+ Portrait -->
 	<gap:splash gap:platform="windows" src="res/screen/windows-phone/screen-portrait.jpg" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
